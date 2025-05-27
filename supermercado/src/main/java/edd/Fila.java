@@ -1,4 +1,4 @@
-package main.java.edd;
+package edd;
 
 public class Fila implements IFila{
 
@@ -66,5 +66,11 @@ public class Fila implements IFila{
             atual = atual.getProx();
         }
         System.out.println("]");
+    }
+    public Object proximo() {// tipo uma fila de espera (peek - de objeto)
+        if (isEmpty()) {
+            return null;
+        }
+        return inicio.getInfo();
     }
 }

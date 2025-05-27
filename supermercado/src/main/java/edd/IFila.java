@@ -1,4 +1,4 @@
-package main.java.edd;
+package edd;
 
 public interface IFila {
     public boolean add(Object info);

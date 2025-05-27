@@ -1,10 +1,10 @@
-package main.java.edd;
+package edd;
 
 import java.util.Objects;
 
 public class Cliente {
-    private String nome;
-    private int id;
+    private final String nome;
+    private final int id;
     private int tempoAtendimento;
 
     public Cliente(String nome, int id, int tempoAtendimento) {

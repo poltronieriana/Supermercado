@@ -1,24 +1,9 @@
-package main.java.edd;
+package edd;
 
 public class Main {
     public static void main(String[] args) {
+        Supermercado supermercado = new Supermercado(3);// n caixas nesse caso é 3 
         IFila fila = new Fila();
-
-        fila.add(10);
-        fila.add(20);
-        fila.add(30);
-        fila.print();
-
-        System.out.println("Tamanho da fila: " + fila.size());
-
-        fila.remove();
-        fila.print();
-
-        System.out.println("Fila está vazia? " + fila.isEmpty());
-
-        fila.remove();
-        fila.remove();
-        fila.print();
-        System.out.println("Fila está vazia? " + fila.isEmpty());
+        supermercado.iniciarSimulacao();
     }
 }

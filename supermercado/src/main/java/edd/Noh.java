@@ -1,4 +1,4 @@
-package main.java.edd;
+package edd;
 
 public class Noh {
     private Object info;
