@@ -33,11 +33,10 @@ public class Cliente {
 
     @Override
     public String toString() {
-        return "Cliente{" +
-                "nome='" + nome + '\'' +
-                ", id=" + id +
-                ", tempoAtendimento=" + tempoAtendimento +
-                '}';
+        return "Cliente : " +
+                "nome = " + nome +
+                " | id = " + id +
+                " | tempoAtendimento = " + tempoAtendimento;
     }
 
     @Override
